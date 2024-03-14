@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="container">
+      <header>
+        <p>Wheather</p>
+      </header>
+      <main>
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="иконка" />
+        <p class="temperature">8°C</p>
+        <p class="wheatherType">
+          <span class="type">Windy</span> in <span class="city">test</span>
+        </p>
+        <button class="ChangeCity">Change city</button>
+      </main>
+      <footer>
+        <p>With ❤️ by Nahid</p>
+      </footer>
+    </div>
+  </body>
+  <script src="./script.js" type="module"></script>
+  <script
+    type="application/javascript"
+    src="https://geo.ipify.org/api/v2/country,city?apiKey=at_bu5ot5BJBvGjEB6yeJik6APEdNR08&ipAddress=8.8.8.8"
+  ></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</html>
